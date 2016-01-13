@@ -1,0 +1,33 @@
+{
+  "name": "danal",
+  "version": "0.1.1",
+  "author": {
+    "name": "egg",
+    "email": "i@egg.pe.kr"
+  },
+  "description": "danal module for Node.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/egg-/danal.git"
+  },
+  "keywords": [
+    "danal",
+    "uas",
+    "authentication",
+    "본인인증"
+  ],
+  "license": "MIT",
+  "main": "./index",
+  "devDependencies": {
+    "express": "^4.13.3",
+    "grunt": "^0.4.5",
+    "grunt-jsdoc-to-markdown": "^1.2.0",
+    "grunt-nodemon": "^0.4.1",
+    "matchdep": "^1.0.0"
+  },
+  "dependencies": {
+    "express-useragent": "^0.2.4",
+    "request": "^2.67.0"
+  }
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DANAL</title>
+</head>
+<body>
+  <form id="danal" action="{{uri}}" method="post"></form>
+
+  <script type="text/javascript">
+  var data = {{data}}
+  var frm = document.getElementById('danal')
+  var input = null
+
+  for (var name in data) {
+    if (data.hasOwnProperty(name)) {
+      input = document.createElement('input')
+      input.type = 'hidden'
+      input.name = name
+      input.value = data[name]
+      frm.appendChild(input)
+    }
+  }
+  document.getElementById('danal').submit()
+  </script>
+</body>
+</html>
